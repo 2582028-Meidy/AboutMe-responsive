@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Page</title>
+  <meta name="description" content="Biodata and personal information of Meidy Kusdianto">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER & NAVIGATION ========== -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <button class="hamburger" aria-label="Toggle menu" onclick="document.querySelector('.nav-menu').classList.toggle('show')">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-menu">
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="biodata.html" class="active">Biodata Page</a></li>
+          <li><a href="myHoliday.html">My Holiday Page</a></li>
+          <li><a href="contact.html">Contact Me Page</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== PERSONAL INFO ========== -->
+    <section class="section">
+      <div class="container">
+        <div class="biodata-content">
+          <!-- Profile Photo (3:4 aspect ratio, max 200px) -->
+          <div class="profile-photo">
+            <!-- Replace with your own photo: profile.jpg -->
+            <img src="images/profile.jpg" alt="Profile photo of Meidy Kusdianto in a black suit and blue tie">
+          </div>
+
+          <div class="bio-text">
+            <h2><strong>Hallo My name is Meidy Kusdianto</strong></h2>
+            <p>
+              I was born on May 4, 2002 
+              in Kuala Kapuas, Central Kalimantan. I am the youngest of two siblings 
+              and have one older sister.
+            </p>
+            <p>
+              Currently, I am an Information Systems student at the Faculty of Information 
+              Technology (FTI), Universitas Advent Indonesia (UNAI). I am always curious 
+              about technology and continuously strive to develop myself in the field of 
+              Information Technology, including learning skills such as camerawork and 
+              digital content creation.
+            </p>
+            <p>
+              I believe that growth happens little by little every day. That is why 
+              I enjoy exploring new knowledge and challenging myself to become better 
+              than yesterday.
+            </p>
+
+            <div class="personal-info">
+              <div class="item">
+                Meidy Kusdianto
+              </div>
+              <div class="item">
+                2582028
+              </div>
+              <div class="item">
+                <img class="logo-img" src="images/logo-fti.png" alt="FTI logo">
+                Information Systems
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== HOBBIES & INTERESTS ========== -->
+    <section class="section hobbies-section">
+      <div class="container">
+        <h2 class="section-title">Hobbies & Interests</h2>
+        <p class="section-subtitle">
+          In my free time, I like to do things that make me happy and help me grow.
+        </p>
+
+        <div class="hobbies-grid">
+          <!-- Unordered List -->
+          <div class="hobby-box">
+            <h3>Things I Enjoy (Unordered List)</h3>
+            <ul>
+              <li>
+                <img class="logo-img" src="images/logo-pointblank.png" alt="Point Blank crosshair icon">
+                <div><strong>Playing Point Blank</strong> – Still enjoy the thrill of the game and friendly competition with friends.</div>
+              </li>
+              <li>
+                <img class="logo-img" src="images/logo-music.png" alt="Music note icon">
+                <div><strong>Listening to Music</strong> – Music makes everything feel lighter and helps me stay focused.</div>
+              </li>
+              <li>
+                <span class="code-icon" aria-hidden="true">&lt;/&gt;</span>
+                <div><strong>Exploring Technology</strong> – Learning new tools, software, and creative digital skills.</div>
+              </li>
+              <li>
+                <span class="code-icon" aria-hidden="true">&lt;/&gt;</span>
+                <div><strong>Photography & Camerawork</strong> – Capturing moments and learning visual storytelling.</div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Ordered List -->
+          <div class="hobby-box">
+            <h3>My Learning Goals (Ordered List)</h3>
+            <ol>
+              <li>
+                <span class="icon-group">
+                  <img class="logo-img" src="images/logo-html.png" alt="HTML icon">
+                  <img class="logo-img" src="images/logo-css.png" alt="CSS icon">
+                </span>
+                <div><strong>Master HTML & CSS</strong> – Build solid foundations in web development.</div>
+              </li>
+              <li>
+                <img class="logo-img" src="images/logo-canva.png" alt="Canva icon">
+                <div><strong>Improve Design Skills</strong> – Create clean and meaningful visual content with Canva and similar tools.</div>
+              </li>
+              <li>
+                <span class="code-icon" aria-hidden="true">&lt;/&gt;</span>
+                <div><strong>Learn Camerawork</strong> – Develop skills in video recording and content production.</div>
+              </li>
+              <li>
+                <span class="code-icon" aria-hidden="true">&lt;/&gt;</span>
+                <div><strong>Grow in Information Technology</strong> – Continuously expand knowledge in systems, data, and digital solutions.</div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ACADEMIC INFORMATION ========== -->
+    <section class="section academic-section">
+      <div class="container">
+        <h2 class="section-title">Academic Information</h2>
+        <p class="section-subtitle">
+          My academic performance during the Academic Year 2025/2026
+        </p>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Semester</th>
+                <th>Academic Year</th>
+                <th>GPA / IPK</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>3</td>
+                <td>2025/2026</td>
+                <td>3.08</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>1</td>
+                <td>2025/2026</td>
+                <td>2.08</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>2</td>
+                <td>2025/2026</td>
+                <td>0.33</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>My MID PROJECT</p>
+    </div>
+  </footer>
+
+</body>
+</html>
